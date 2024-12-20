@@ -9,5 +9,12 @@ public class App{
 		System.out.println(personne.getNom());
 		System.out.println(personne.getPrenom());
 		System.out.println(personne.getAge());
+		System.out.println("----------------------------------")
+		personne.setNom("chbib");
+		personne.setPrenom("abdellah");
+		personne.setAge(21);
+		System.out.println(personne.getNom());
+		System.out.println(personne.getPrenom());
+		System.out.println(personne.getAge());
 	}
 }
